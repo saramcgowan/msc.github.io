@@ -1,6 +1,6 @@
 body {
   margin: 0
-  font: Times
+  font-family: 'Times New Roman', serif;
   background-color: lightpink;
 }
 
@@ -8,22 +8,30 @@ header {
   background-color: gray;
   color: black;
   text-align: center;
+  padding: 30px;
 }
 
 header h1 {
-  margin: 0
+  margin: 0;
   font size: 32px;
 }
 
-.people portion {
+.people-portion {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 30px;
 }
 
+.person {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  min-height: 400px;
+}
+
 .madi {
-  background-color: green;
+  background-color: lightgreen;
 }
 
 .sara {
@@ -31,5 +39,21 @@ header h1 {
 }
 
 .clem {
-  background-color: blue;
+  background-color: lightblue;
+}
+
+.person img {
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+.person p {
+  font size: 16px;
+}
+
+.person a {
+  color: black;
+  font-weight: bold;
 }
