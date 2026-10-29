@@ -1,6 +1,18 @@
 body {
+  margin: 0
+  font: Times
   background-color: lightpink;
 }
+
+header {
+  background-color: gray
+  color: black
+  text-align: center
+}
+
+
+
+
 
 .people-portion {
   display: grid
