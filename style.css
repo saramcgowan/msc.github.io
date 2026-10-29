@@ -27,29 +27,3 @@ header h1 {
     height: auto;
     display: block;
 }
-
-
-
-
-
-
-
-body {
-  background-color: lightpink;
-}
-h1 {
-  color: powderblue;
-}
-p {
-  color: red;
-}
-/** CSS comments are written enclosed with these characters **/
-
-
-.myclass {
-  background-color: #fff7e8; /** hex codes also work for colors **/
-}
-
-#unique-id {
-  font-family: Arial, Helvetica, sans-serif; /** you can specify common font families OR link to a Google Font API **/
-}
