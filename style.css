@@ -6,7 +6,7 @@ body {
   background-color: #FFF7E6;
   color: #702A25;
 
-  background-image: radial-gradient(#F5B6C8 4px, transparent 4px);
+  background-image: radial-gradient(circle, #F5B6C8 5px, transparent 6px);
   background-size: 35px 35px;
 }
 
@@ -61,7 +61,7 @@ header h1 {
 }
 
 .person h2 {
-  font-family:, Georgia, serif;
+  font-family: Georgia, serif;
   font-size: 30px;
 }
 
