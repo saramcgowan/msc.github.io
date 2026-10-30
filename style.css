@@ -57,3 +57,11 @@ header h1 {
   color: black;
   font-weight: bold;
 }
+.person {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.person:hover {
+  transform: translateY(-8px);
+  box-shadow: 5px 8px 15px #A69B83;
+}
