@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Redaction+35&display=swap');
 body {
   margin: 0;
-  font-family: 'Times New Roman', serif;
+  font-family: 'Georgia', serif;
   background-color: #EBDEC0;
 }
 
@@ -14,6 +15,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 32px;
+  font-family: 'Redaction 35', Georgia, serif;
 }
 
 .people-portion {
@@ -28,6 +30,7 @@ header h1 {
   text-align: center;
   border-radius: 10px;
   min-height: 400px;
+  font-family: 'Redaction 35', Georgia, serif;
 }
 
 .madi {
