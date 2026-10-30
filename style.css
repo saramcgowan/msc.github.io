@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Redaction+35&display=swap');
+
 
 body {
   margin: 0;
@@ -58,7 +58,7 @@ header h1 {
 }
 
 .person h2 {
-  font-family: 'Redaction 35', Georgia, serif;
+  font-family:, Georgia, serif;
   font-size: 30px;
 }
 
