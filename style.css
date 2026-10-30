@@ -1,22 +1,23 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Redaction+35&display=swap');
 
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background-color: #FFF1D6;
+  background-color: #FFF7E6;
+  color: #702A25;
 }
 
 header {
-  background-color: #A9C7F5;
-  color: black;
+  background-color: #C42B34;
+  color: #FCF9AB;
   text-align: center;
   padding: 30px;
+  border-bottom: 6px solid #FC9E2D;
 }
 
 header h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 36px;
   font-family: 'Redaction 35', Georgia, serif;
 }
 
@@ -30,7 +31,7 @@ header h1 {
 .person {
   padding: 20px;
   text-align: center;
-  border: 3px solid #594537;
+  border: 3px solid #702A25;
   border-radius: 20px;
   min-height: 400px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -38,19 +39,22 @@ header h1 {
 
 .person:hover {
   transform: translateY(-8px);
-  box-shadow: 5px 8px 15px #A69B83;
+  box-shadow: 5px 8px 15px #B88C75;
 }
 
 .madi {
-  background-color: #FFC857;
+  background-color: #FCF9AB;
+  color: #702A25;
 }
 
 .sara {
-  background-color: #FF91A4;
+  background-color: #C42B34;
+  color: #FFF7E6;
 }
 
 .clem {
-  background-color: #88B88A;
+  background-color: #FC9E2D;
+  color: #702A25;
 }
 
 .person h2 {
@@ -63,6 +67,8 @@ header h1 {
   max-height: 300px;
   height: auto;
   object-fit: contain;
+  border: 6px solid #FFF7E6;
+  border-radius: 10px;
 }
 
 .person p {
@@ -70,6 +76,16 @@ header h1 {
 }
 
 .person a {
-  color: black;
+  color: #702A25;
   font-weight: bold;
+  background-color: #FFF7E6;
+  padding: 8px 12px;
+  border-radius: 12px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.person a:hover {
+  background-color: #FCF9AB;
+  text-decoration: underline;
 }
