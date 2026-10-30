@@ -1,12 +1,14 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Redaction+35&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Georgia', serif;
-  background-color: #EBDEC0;
+  font-family: Georgia, serif;
+  background-color: #FFF1D6;
 }
 
 header {
-  background-color: #C6C09C;
+  background-color: #A9C7F5;
   color: black;
   text-align: center;
   padding: 30px;
@@ -28,21 +30,32 @@ header h1 {
 .person {
   padding: 20px;
   text-align: center;
-  border-radius: 10px;
+  border: 3px solid #594537;
+  border-radius: 20px;
   min-height: 400px;
-  font-family: 'Redaction 35', Georgia, serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.person:hover {
+  transform: translateY(-8px);
+  box-shadow: 5px 8px 15px #A69B83;
 }
 
 .madi {
-  background-color: #FCC88A;
+  background-color: #FFC857;
 }
 
 .sara {
-    background-color: #E79897;
+  background-color: #FF91A4;
 }
 
 .clem {
-  background-color: #768E78;
+  background-color: #88B88A;
+}
+
+.person h2 {
+  font-family: 'Redaction 35', Georgia, serif;
+  font-size: 30px;
 }
 
 .person img {
@@ -59,12 +72,4 @@ header h1 {
 .person a {
   color: black;
   font-weight: bold;
-}
-.person {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.person:hover {
-  transform: translateY(-8px);
-  box-shadow: 5px 8px 15px #A69B83;
 }
