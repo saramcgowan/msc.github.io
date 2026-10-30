@@ -1,11 +1,11 @@
 body {
-  margin: 0
+  margin: 0;
   font-family: 'Times New Roman', serif;
-  background-color: lightpink;
+  background-color: #EBDEC0;
 }
 
 header {
-  background-color: gray;
+  background-color: #C6C09C;
   color: black;
   text-align: center;
   padding: 30px;
@@ -13,7 +13,7 @@ header {
 
 header h1 {
   margin: 0;
-  font size: 32px;
+  font-size: 32px;
 }
 
 .people-portion {
@@ -35,11 +35,11 @@ header h1 {
 }
 
 .sara {
-    background-color: pink;
+    background-color: #E79897;
 }
 
 .clem {
-  background-color: lightblue;
+  background-color: #768E78;
 }
 
 .person img {
@@ -50,7 +50,7 @@ header h1 {
 }
 
 .person p {
-  font size: 16px;
+  font-size: 16px;
 }
 
 .person a {
