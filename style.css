@@ -1,10 +1,9 @@
-
 :root {
     --olive-green: #747C4B;
     --muted-blue: #526D83;
     --warm-cream: #F3EBDD;
     --golden-khaki: #80552F;
-    --dark-brown: #5B3B27;
+    --dark-brown: #3F291D;
     --white: #FFFFFF;
 }
 
@@ -19,22 +18,22 @@ body {
         linear-gradient(
             to right,
             var(--warm-cream) 0px,
-            var(--warm-cream) 5px,
-            var(--muted-blue) 5px,
-            var(--muted-blue) 14px,
-            var(--olive-green) 14px,
-            var(--olive-green) 76px,
-            var(--muted-blue) 76px,
-            var(--muted-blue) 85px,
-            var(--warm-cream) 85px,
-            var(--warm-cream) 90px
+            var(--warm-cream) 4px,
+            var(--muted-blue) 4px,
+            var(--muted-blue) 24px,
+            var(--olive-green) 24px,
+            var(--olive-green) 120px,
+            var(--muted-blue) 120px,
+            var(--muted-blue) 140px,
+            var(--warm-cream) 140px,
+            var(--warm-cream) 144px
         );
-      background-size: 144px 100%;
+    background-size: 144px 100%;
 }
 
 header {
-    background-color: var(--white);
-    color: var(--dark-brown);
+    background-color: var(--golden-khaki);
+    color: var(--white);
     text-align: center;
     width: fit-content;
     max-width: 75%;
@@ -48,7 +47,7 @@ header h1 {
     font-size: 32px;
     font-family: Georgia, serif;
     font-weight: normal;
-    color: var(--dark-brown);
+    color: var(--white);
 }
 
 .people-portion {
@@ -66,8 +65,6 @@ header h1 {
     background-color: var(--golden-khaki);
     color: var(--white);
     border: 5px solid var(--dark-brown);
-    outline: 3px solid var(--warm-cream);
-    outline-offset: -12px;
     border-radius: 0;
     box-shadow: none;
     min-height: 400px;
