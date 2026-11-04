@@ -1,13 +1,16 @@
 
 
 :root {
-    --mozart-blue: #587D99;
-    --master-key: #E8D8B9;
-    --prickly-pear: #A5A65C;
-    --sunburn: #D58B70;
-    --roycroft-red: #91483F;
-    --dark-brown: #49352D;
+    --cream: #FFF9E9;
+    --butter-yellow: #F4E8B5;
+    --forest-green: #294C3B;
+    --sage-green: #E1EBDD;
+    --dusty-blue: #DFEAF0;
+    --soft-pink: #F4E1E5;
+    --dark-text: #34483C;
+    --border-color: #D9DFD2;
 }
+
 
 
 body {
