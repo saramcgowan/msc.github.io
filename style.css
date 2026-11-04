@@ -1,37 +1,36 @@
 
-
+/* WARM OAT COLOR PALETTE */
 :root {
-    --cream: #FFF9E9;
-    --butter-yellow: #F4E8B5;
-    --forest-green: #294C3B;
-    --sage-green: #E1EBDD;
-    --dusty-blue: #DFEAF0;
-    --soft-pink: #F4E1E5;
-    --dark-text: #34483C;
-    --border-color: #D9DFD2;
+    --cream: #F3EEE5;
+    --butter-yellow: #E8D8B8;
+    --forest-green: #493C33;
+    --sage-green: #C7C5AE;
+    --dusty-blue: #DFD0BA;
+    --soft-pink: #D9B9AC;
+    --dark-text: #51463D;
+    --border-color: #CDBEAD;
 }
-
 
 
 body {
     margin: 0;
     font-family: Georgia, serif;
-    background-color: var(--master-key);
-    color: var(--dark-brown);
+    background-color: var(--cream);
+    color: var(--dark-text);
 }
 
 
 header {
-    background-color: var(--mozart-blue);
-    color: var(--master-key);
+    background-color: var(--forest-green);
+    color: var(--cream);
     text-align: center;
-    padding: 28px;
-    border-bottom: 2px solid var(--dark-brown);
+    padding: 30px;
+    border-bottom: 3px solid var(--butter-yellow);
 }
 
 header h1 {
     margin: 0;
-    font-size: 34px;
+    font-size: 32px;
     font-family: Georgia, serif;
     font-weight: normal;
 }
@@ -40,46 +39,46 @@ header h1 {
 .people-portion {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 22px;
+    gap: 24px;
     padding: 35px;
 }
 
 
 .person {
-    padding: 22px;
+    padding: 25px;
     text-align: center;
-    border: 1px solid var(--dark-brown);
-    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
     min-height: 400px;
-    transition: transform 0.3s ease;
+    transition: transform 0.25s ease;
 }
 
 .person:hover {
-    transform: translateY(-4px);
+    transform: translateY(-3px);
 }
 
 
 .sara {
-    background-color: var(--prickly-pear);
-    color: #FFF8E9;
+    background-color: var(--sage-green);
+    color: var(--forest-green);
 }
 
 .clem {
-    background-color: var(--sunburn);
-    color: var(--dark-brown);
+    background-color: var(--dusty-blue);
+    color: var(--forest-green);
 }
 
 .madi {
-    background-color: var(--roycroft-red);
-    color: var(--master-key);
+    background-color: var(--soft-pink);
+    color: var(--forest-green);
 }
-
 
 .person h2 {
     font-family: Georgia, serif;
     font-size: 28px;
     font-weight: normal;
-    margin-top: 10px;
+    margin-top: 12px;
+    margin-bottom: 20px;
 }
 
 
@@ -88,38 +87,42 @@ header h1 {
     max-height: 300px;
     height: auto;
     object-fit: contain;
-    border: 2px solid var(--master-key);
-    border-radius: 2px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
 }
 
+/* PROFILE DESCRIPTIONS */
 .person p {
     font-size: 16px;
     line-height: 1.7;
 }
 
-
+/* PROFILE LINKS */
 .person a {
-    color: var(--dark-brown);
+    color: var(--forest-green);
     font-weight: bold;
-    background-color: var(--master-key);
-    padding: 9px 13px;
-    border-radius: 2px;
     display: inline-block;
+    margin-top: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--forest-green);
     text-decoration: none;
     font-size: 14px;
-    transition: background-color 0.2s ease;
 }
 
 .person a:hover {
-    background-color: var(--mozart-blue);
-    color: white;
-    text-decoration: none;
+    color: #8B7160;
+    border-color: #8B7160;
 }
 
 
-.sara .sara-label {
-    font-size: 11px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    margin-bottom: 0;
+
+@media (max-width: 750px) {
+    .people-portion {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
 }
